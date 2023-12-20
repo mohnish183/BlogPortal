@@ -17,7 +17,7 @@ function RouteCompo() {
   const toggleMenu = () => {
     if (toggleValue === true) {
       navBar[0].classList.add("childnodeOn");
-      // navBar.style.flexDirection = "column";
+
       console.log("red");
       navBar[0].classList.remove("childnodeOff");
       childNode = navBar[0].children;
@@ -59,8 +59,6 @@ function RouteCompo() {
         </div>
 
         <div className="nav-bar">
-          {/* <i className="fa fa-times" onClick={hideMenu()}></i> */}
-
           <NavLink to={"/"}>Home</NavLink>
           <NavLink to={"/bollywood"}>Bollywood</NavLink>
           <NavLink to={"/hollywood"}>Hollywood</NavLink>
@@ -68,7 +66,7 @@ function RouteCompo() {
           <NavLink to={"/technology"}>Technology</NavLink>
           <NavLink to={"/fitness"}>Fitness</NavLink>
         </div>
-        {/* <i className="fa fa-bars"></i> */}
+
         <Store>
           <Routes>
             <Route path="/" element={<Home />} />

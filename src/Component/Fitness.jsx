@@ -6,7 +6,7 @@ import "../ComponentUI/Hollywood.css";
 
 function Fitness() {
   let hollywoodData = useContext(StoreData);
-  console.log(hollywoodData.newsData);
+
   return (
     <>
       <div className="hollywood-container">
@@ -18,12 +18,7 @@ function Fitness() {
               return (
                 <>
                   <div className="item">
-                    <img
-                      src={item.image}
-                      alt="not found"
-                      // width={"300vw"}
-                      // height={"300em"}
-                    />
+                    <img src={item.image} alt="not found" />
                     <div className="content-flex">
                       <h3 className="title">
                         {item.title.split(/(\s+)/).slice(0, 20)}...

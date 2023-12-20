@@ -11,10 +11,6 @@ function Footer() {
   return (
     <>
       <div className="footer">
-        {/* <FontAwesomeIcon icon={faFacebook} />
-<FontAwesomeIcon icon={faEnvelope} />
-<FontAwesomeIcon icon={faTwitter} />
-<FontAwesomeIcon icon={faSquareInstagram} /> */}
         <div className="sb__footer section__padding">
           <div className="sb__footer-links">
             <div className="sb__footer-links_div">

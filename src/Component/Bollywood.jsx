@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 import "../ComponentUI/Hollywood.css";
 function Bollywood() {
   let hollywoodData = useContext(StoreData);
-  console.log(hollywoodData.newsData);
+
   return (
     <>
       <div className="hollywood-container">

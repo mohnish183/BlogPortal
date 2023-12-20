@@ -6,7 +6,7 @@ import "../ComponentUI/DynamicCompo.css";
 function DynamicCompo() {
   const id = useParams().id;
   const Navigate = useNavigate();
-  console.log(id);
+
   const contextData = useContext(StoreData);
   let titleName;
   return (

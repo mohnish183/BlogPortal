@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 import "../ComponentUI/Hollywood.css";
 function Food() {
   let hollywoodData = useContext(StoreData);
-  console.log(hollywoodData.newsData);
+
   return (
     <>
       <div className="hollywood-container">
@@ -17,12 +17,7 @@ function Food() {
               return (
                 <>
                   <div className="item">
-                    <img
-                      src={item.image}
-                      alt="not found"
-                      // width={"300vw"}
-                      // height={"300em"}
-                    />
+                    <img src={item.image} alt="not found" />
                     <div className="content-flex">
                       <h3 className="title">
                         {item.title.split(/(\s+)/).slice(0, 20)}...
@@ -32,7 +27,7 @@ function Food() {
                     </div>
                   </div>
                   <div className="flex-2">
-                  <h3>Top Headline</h3>
+                    <h3>Top Headline</h3>
                     {hollywoodData.newsData
                       .filter(
                         (item, index) => item.category === "Food" && index > 65

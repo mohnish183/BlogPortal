@@ -17,12 +17,7 @@ function Technology() {
               return (
                 <>
                   <div className="item">
-                    <img
-                      src={item.image}
-                      alt="not found"
-                      // width={"300vw"}
-                      // height={"300em"}
-                    />
+                    <img src={item.image} alt="not found" />
                     <div className="content-flex">
                       <h3 className="title">
                         {item.title.split(/(\s+)/).slice(0, 20)}...

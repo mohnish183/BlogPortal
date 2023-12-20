@@ -10,7 +10,7 @@ import { NavLink } from "react-router-dom";
 
 function Home() {
   let homeData = useContext(StoreData);
-  console.log(homeData.newsData);
+
   return (
     <>
       <div className="home-container">
