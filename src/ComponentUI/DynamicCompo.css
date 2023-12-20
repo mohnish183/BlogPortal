@@ -1,0 +1,134 @@
+.Dynamic-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5vh;
+}
+.heading h1 {
+  padding: 2vh 10vw;
+  text-align: center;
+}
+.image {
+  display: flex;
+
+  justify-content: center;
+}
+.image img {
+  width: 40vw;
+  height: 60vh;
+}
+.discription {
+  padding: 2vh 15vw;
+}
+button {
+  width: 15vw;
+  height: 6vh;
+  align-self: center;
+  border-radius: 5vh;
+}
+/* **************** */
+
+.Dynamic-container-2 {
+  display: flex;
+  justify-content: space-between;
+
+  /* 
+  column-gap: 2vh; */
+}
+.Dynamic-container-2 img {
+  width: 20vw;
+  height: 30vh;
+}
+.Dynamic-container-2 h1 {
+  width: 30vw;
+  height: 10vh;
+  font-size: 3vh;
+}
+.image-box-1 {
+  display: flex;
+  justify-content: center;
+}
+.content .title-1 {
+  width: 30vw;
+  padding: 0 2vh;
+}
+
+.content p {
+  width: 20vw;
+  position: relative;
+  left: 6vw;
+}
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .image img {
+    width: 60%;
+  }
+  .Dynamic-container-2 {
+    flex-direction: column;
+    width: 80vw;
+    position: relative;
+    left: 15vw;
+  }
+  .image-box-1 {
+    justify-content: flex-start;
+  }
+  .image-box-1 img {
+    width: 60%;
+  }
+  .content .title-1 {
+    width: 60vw;
+    height: 20vh;
+    padding: 0;
+  }
+  .content h1 {
+    margin-bottom: 2vh;
+  }
+  .content p {
+    width: 60vw;
+    left: 0;
+  }
+  .flex_container2 {
+    margin-bottom: 4vh;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .image img {
+    width: 60%;
+  }
+  .Dynamic-container-2 {
+    flex-direction: column;
+    width: 80vw;
+    position: relative;
+    left: 15vw;
+  }
+  .image-box-1 {
+    justify-content: flex-start;
+  }
+  .image-box-1 img {
+    width: 60%;
+  }
+  .content .title-1 {
+    width: 60vw;
+    height: 20vh;
+    padding: 0;
+  }
+  .content h1 {
+    margin-bottom: 2vh;
+  }
+  .content p {
+    width: 60vw;
+    left: 0;
+  }
+  .flex_container2 {
+    margin-bottom: 4vh;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .Dynamic-container-2 {
+    margin-bottom: 10vh;
+  }
+  .content .title-1 {
+    height: 15vh;
+  }
+  .content p {
+    top: 4vh;
+  }
+}
