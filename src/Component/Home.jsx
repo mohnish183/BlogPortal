@@ -25,7 +25,7 @@ function Home() {
         </div>
       </div>
       <div className="top-section">
-        <h1>The Latest</h1>
+        <h1 className="top-section-heading">The Latest</h1>
         <div className="post-section">
           {homeData.newsData
             .filter((item, index) => index < 3)
@@ -97,16 +97,16 @@ function Home() {
               alt="not found"
             />
           </div>
-          <div className="article-content article-content-2">
+          <div className="article-content-lower article-content-2">
             {homeData.newsData
               .filter((item, index) => index > 25 && index < 30)
               .map((item, index) => {
                 return (
                   <>
-                    <div className="article-item article-item2">
+                    <div className="article-item-lower article-item2">
                       <img src={item.image} alt="" />
                       <div className="article-block">
-                        <h3 className="title">
+                        <h3 className="title-2">
                           {item.title.split(/(\s+)/).slice(0, 20)}...
                         </h3>
 

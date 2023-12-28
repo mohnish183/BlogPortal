@@ -1,6 +1,5 @@
 import React from "react";
 import { createContext, useState } from "react";
-import Home from "../Component/Home";
 
 export const StoreData = createContext();
 export default function Store(props) {

@@ -18,7 +18,7 @@
 .fa {
   display: none;
 }
-@media screen and (min-width: 300px) and (max-width: 450px) {
+@media screen and (min-width: 300px) and (max-width: 600px) {
   .nav-bar {
     justify-content: flex-end;
     /* flex-direction: column; */
@@ -49,7 +49,7 @@
     text-align: center;
   }
 }
-@media screen and (min-width: 450px) and (max-width: 600px) {
+/* @media screen and (min-width: 450px) and (max-width: 600px) {
   .nav-bar {
     justify-content: flex-start;
     column-gap: 3vh;
@@ -64,7 +64,7 @@
   .nav-bar * {
     font-size: 2vh;
   }
-}
+} */
 @media screen and (min-width: 600px) and (max-width: 800px) {
   .nav-bar {
     justify-content: flex-start;
@@ -78,7 +78,7 @@
     display: block;
   }
   .nav-bar * {
-    font-size: 2vh;
+    font-size: 1.5vh;
   }
 }
 .childnodeOn {

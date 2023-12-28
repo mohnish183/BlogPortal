@@ -28,7 +28,7 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 40vh;
+  top: 20vh;
   right: 0%;
   width: 40vw;
 }
@@ -43,6 +43,21 @@
   height: 30vh;
   width: 14vw;
 }
+.myntra-img,
+.flipkart-img {
+  width: 30dvw;
+  height: 125dvh;
+}
+.myntra-img-food,
+.flipkart-img-food {
+  width: 30dvw;
+  height: 100dvh;
+  margin-bottom: 4dvh;
+}
+.myntra-img {
+  margin-bottom: 4dvh;
+}
+
 .content-flex-2 {
   width: 24vw;
 }
@@ -107,7 +122,38 @@
   .item-2 img {
     width: 100%;
   }
+  .myntra-img,
+  .flipkart-img {
+    width: 85dvw;
+    height: 125dvh;
+    margin-left: 6dvw;
+  }
+  .myntra-img-food,
+  .flipkart-img-food {
+    width: 30dvw;
+    height: 100dvh;
+    margin-bottom: 4dvh;
+  }
+  .myntra-img {
+    margin-bottom: 4dvh;
+  }
   .content-flex-2 {
     width: 100%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .myntra-img,
+  .flipkart-img {
+    width: 30dvw;
+    height: 100dvh;
+  }
+  .myntra-img-food,
+  .flipkart-img-food {
+    width: 30dvw;
+    height: 100dvh;
+    margin-bottom: 4dvh;
+  }
+  .myntra-img {
+    margin-bottom: 4dvh;
   }
 }

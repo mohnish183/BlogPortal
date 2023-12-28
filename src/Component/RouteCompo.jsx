@@ -38,7 +38,7 @@ function RouteCompo() {
     }
   };
   window.addEventListener("resize", (e) => {
-    if (window.matchMedia(`(min-width: 450px)`).matches) {
+    if (window.matchMedia(`(min-width: 600px)`).matches) {
       navBar[0].classList.remove("childnodeOff");
       navBar[0].classList.remove("childnodeOn");
       childNode = navBar[0].children;
@@ -47,7 +47,7 @@ function RouteCompo() {
         childNode[i].classList.remove("childNodeDisplay");
       }
     }
-    if (window.matchMedia(`(max-width:450px)`).matches) {
+    if (window.matchMedia(`(max-width:600px)`).matches) {
       navBar[0].classList.add("childnodeOff");
     }
   });

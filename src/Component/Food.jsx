@@ -53,6 +53,16 @@ function Food() {
                           </>
                         );
                       })}
+                    <img
+                      className="myntra-img-food"
+                      src="https://newspaperads.ads2publish.com/wp-content/uploads/2018/08/giordano-time-wear-upto-50-off-ad-times-of-india-mumbai-21-08-2018-568x945.png"
+                      alt="not found"
+                    />
+                    <img
+                      className="flipkart-img-food"
+                      src="https://newspaperads.ads2publish.com/wp-content/uploads/2019/02/flipkart-save-on-the-flights-cheaper-flights-elsewhere-ad-times-of-india-bangalore-01-02-2019.png"
+                      alt=""
+                    />
                   </div>
                 </>
               );

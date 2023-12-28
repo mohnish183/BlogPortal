@@ -92,6 +92,7 @@ button {
 @media screen and (min-width: 400px) and (max-width: 600px) {
   .image img {
     width: 60%;
+    height: 30dvh;
   }
   .Dynamic-container-2 {
     flex-direction: column;
@@ -103,7 +104,7 @@ button {
     justify-content: flex-start;
   }
   .image-box-1 img {
-    width: 60%;
+    width: 80%;
   }
   .content .title-1 {
     width: 60vw;
@@ -121,14 +122,21 @@ button {
     margin-bottom: 4vh;
   }
 }
-@media screen and (min-width: 600px) and (max-width: 900px) {
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .image img {
+    width: 60%;
+    height: 30dvh;
+  }
   .Dynamic-container-2 {
     margin-bottom: 10vh;
   }
-  .content .title-1 {
-    height: 15vh;
+  .Dynamic-container-2 img {
+    width: 25vw;
+    height: 20vh;
   }
-  .content p {
-    top: 4vh;
+  .content .title-1 {
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 15dvh;
   }
 }
