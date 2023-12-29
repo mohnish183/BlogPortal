@@ -9,6 +9,7 @@ import Fitness from "./Fitness";
 import Store from "../Store/Store";
 import { NavLink, BrowserRouter, Route, Routes } from "react-router-dom";
 import DynamicCompo from "./DynamicCompo";
+import siren from "../Image/theSiren.png";
 function RouteCompo() {
   var navBar = document.getElementsByClassName("nav-bar");
   var childNode;
@@ -53,6 +54,10 @@ function RouteCompo() {
   });
   return (
     <>
+      <div className="navbar-img">
+        <img src={siren} alt="" />
+      </div>
+
       <BrowserRouter>
         <div className="icon">
           <i className="fa fa-bars" onClick={toggleMenu}></i>

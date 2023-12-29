@@ -4,9 +4,11 @@
   flex-direction: row;
   column-gap: 2vw;
 }
+
 .home-image * {
   width: 50%;
 }
+
 .image2 {
   display: flex;
   flex-direction: column;
