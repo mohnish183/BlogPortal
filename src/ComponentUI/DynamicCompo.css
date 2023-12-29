@@ -60,6 +60,7 @@ button {
 @media screen and (min-width: 300px) and (max-width: 400px) {
   .image img {
     width: 60%;
+    height: 20dvh;
   }
   .Dynamic-container-2 {
     flex-direction: column;
@@ -71,12 +72,14 @@ button {
     justify-content: flex-start;
   }
   .image-box-1 img {
-    width: 60%;
+    width: 80%;
+    height: 20dvh;
   }
   .content .title-1 {
     width: 60vw;
-    height: 20vh;
+    height: auto;
     padding: 0;
+    font-size: 2rem;
   }
   .content h1 {
     margin-bottom: 2vh;
@@ -88,8 +91,18 @@ button {
   .flex_container2 {
     margin-bottom: 4vh;
   }
+  button {
+    width: 30dvw;
+    height: 4dvh;
+    border-radius: 2dvh;
+  }
 }
 @media screen and (min-width: 400px) and (max-width: 600px) {
+  button {
+    width: 30dvw;
+    height: 4dvh;
+    border-radius: 2dvh;
+  }
   .image img {
     width: 60%;
     height: 30dvh;
@@ -123,6 +136,11 @@ button {
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1000px) {
+  button {
+    width: 30dvw;
+    height: 4dvh;
+    border-radius: 2dvh;
+  }
   .image img {
     width: 60%;
     height: 30dvh;
@@ -137,6 +155,7 @@ button {
   .content .title-1 {
     box-sizing: border-box;
     overflow: hidden;
-    height: 15dvh;
+    height: 14dvh;
+    font-size: 1.5dvh;
   }
 }

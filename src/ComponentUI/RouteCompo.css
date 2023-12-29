@@ -84,7 +84,7 @@
     display: block;
   }
   .nav-bar * {
-    font-size: 1.5vh;
+    font-size: 1dvh;
   }
 }
 .childnodeOn {

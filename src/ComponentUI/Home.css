@@ -150,6 +150,7 @@
   }
   .article-item img {
     width: 75vw;
+    height: 20dvh;
   }
   .article-block {
     width: 80vw;
