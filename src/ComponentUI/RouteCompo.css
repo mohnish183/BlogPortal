@@ -76,6 +76,7 @@
     justify-content: flex-start;
     column-gap: 3vh;
     flex-direction: row;
+    justify-content: space-evenly;
   }
   .nav-bar :first-child {
     margin-left: 2vw;
@@ -84,7 +85,12 @@
     display: block;
   }
   .nav-bar * {
-    font-size: 1dvh;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 800px) {
+  .nav-bar * {
+    font-size: 1.5rem;
   }
 }
 .childnodeOn {
